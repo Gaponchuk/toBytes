@@ -1,0 +1,33 @@
+.subscribe {
+	position: relative;
+	min-height: 450px;
+	padding-top: 150px;
+	box-sizing: border-box;
+	color: #fff;
+	background-color: #131c25;
+
+	>.wrapper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&::after {
+		position: absolute;
+		content: "";
+		width: 100%;
+		height: 7px;
+		bottom: 0;
+		left: 0;
+		background-image: repeating-linear-gradient(to right,#4acaff 0px, #4acaff 100px,#3fb3e3 100px, #3fb3e3 200px, #79d8ff 200px, #79d8ff 300px, #7e9dac 300px, #7e9dac 400px, #3baedd 400px, #3baedd 500px);
+	}
+
+	.description-text {
+		margin-bottom: 25px;
+	}
+}
+
+
+
+
+

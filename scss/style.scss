@@ -1,0 +1,58 @@
+@import "fonts";
+@import "top-page";
+@import "navigation";
+@import "search";
+@import "about-us";
+@import "subscribe";
+@import "subscribe-form";
+@import "footer";
+@import "location-block";
+@import "media";
+
+
+body {
+  font-size: 14px;
+  font-family: 'GothamRounded-Book', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+.title {
+	font-family: 'GothamRounded-BookItalic', sans-serif;
+}
+
+.description-text {
+	font-size: 18px;
+}
+
+.submit-btn {
+	position: relative;
+	font-family: 'GothamRounded-BookItalic', sans-serif;
+	font-size: 20px;
+	line-height: 25px;
+	/*margin-left: auto;*/
+	border-style: none;
+	border-radius: 2px;
+	color: #ffffff;
+	background-color: #4acaff;
+	box-shadow: 0 4px 0 #3baedd;
+	cursor: pointer;
+	transition: all .4s ease;
+	outline: none;
+
+	&:hover {
+		background-color: #60828e;
+		box-shadow: 0 4px 0 #60828e;
+	}
+
+	&:active {
+		color: #fff;
+		box-shadow: 0 4px 0 #fff;
+	}
+}

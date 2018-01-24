@@ -1,0 +1,83 @@
+.subscribe-form {
+
+	 max-width: 365px;
+   width: 100%;
+
+	/*input[type=text] {
+		position: relative;
+		font-family: 'GothamRounded-BookItalic', sans-serif;
+		font-size: 14px;
+		max-width: 365px;
+		width: 100%;
+		height: 55px;
+		padding: 20px 60px 20px 20px;
+		border: 2px solid #4acaff;
+		border-radius: 10px;
+		color: #fff;
+		background-color: #131c25;
+		box-sizing: border-box;
+	}*/
+
+	&__btn {
+		display: none;
+		margin-top: 10px;
+		padding: 7px 20px 5px;
+	}
+
+	&__field {
+		position: relative;
+		font-family: 'GothamRounded-BookItalic', sans-serif;
+		font-size: 14px;
+		max-width: 365px;
+		width: 100%;
+		height: 55px;
+		padding: 20px 60px 20px 20px;
+		border: 2px solid #4acaff;
+		border-radius: 10px;
+		color: #fff;
+		background-color: #131c25;
+		box-sizing: border-box;
+		background-image: url("../img/mail-icon.svg");
+		background-repeat: no-repeat;
+		background-position: 94% center;
+		outline: none;
+
+		&::after {
+			position: absolute;
+			content: "";
+			width: 15px;
+			height: 15px;
+			top: 50%;
+			right: 22px;
+			background-image: url("../img/mail-icon.svg");
+			background-repeat: no-repeat;
+			transform: translateY(-50%);
+		}
+
+
+		&:hover {
+			background-color: rgba(96, 130, 142, .4);
+
+			&::placeholder {
+				color: #60828e;
+			}
+		}
+
+		&:focus {
+			border-color: #60828e;
+			background-color: #131c25;
+
+			&::placeholder {
+				color: #ffffff;
+			}
+		}
+
+		&:active {
+			background-color: rgba(96, 130, 142, .4)
+		}
+
+		&::placeholder {
+			color: #ffffff;
+		}
+	}
+}
