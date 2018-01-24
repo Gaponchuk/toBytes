@@ -166,6 +166,7 @@
           transform: translateY(0);
 }
 .navigation__close-btn {
+  display: none;
   position: absolute;
   top: 15px;
   right: 25px;
@@ -855,6 +856,9 @@
     	transform: translateY(0);
     	opacity: 1;
     }*/
+  }
+  .navigation__close-btn {
+    display: block;
   }
   .navigation__list {
     margin-top: 15vh;
