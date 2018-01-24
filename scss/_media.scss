@@ -92,8 +92,6 @@
 		position: fixed;
 		z-index: 55;
 		transition: all .5s ease;
-		
-		
 		background-color: #ffffff;
 
 
@@ -101,6 +99,10 @@
 			transform: translateY(0);
 			opacity: 1;
 		}*/
+
+		&__close-btn {
+			display: block;
+		}
 
 		&__list {
 			margin-top: 15vh;
